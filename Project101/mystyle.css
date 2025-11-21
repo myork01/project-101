@@ -1,0 +1,30 @@
+body{
+    font-family: Courier;
+    background-color: #4d684f;
+    color: #333333;
+}
+p{
+        line-height: 2;
+}
+
+.site-init{
+    background-color: green;
+    color: black;
+    text-align: center;
+}
+
+.menu a{
+    background-color: red;
+    margin: right 10px;;
+}
+
+#read-more{
+    display: block;
+    text-decoration: none;
+    color: black
+    border:1px solid black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 100px;
+    margin: 20px;
+}
