@@ -1,0 +1,48 @@
+.vt323-regular {
+  font-family: "VT323";
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    font-family: "VT323";
+    background-color: #000000;
+    color: #c5b9b9
+    
+}
+.menu a{
+   font-size: 32px; 
+}
+p{
+        line-height: 1.5;
+        font-size: 24px;
+}
+
+.site-init{
+    background-color: #3c42084f;
+    color: #c5b9b9;
+    text-align: center;
+}
+
+.menu a{
+    background-color: #09c709;
+    margin: right 10px;
+}
+#read-more{
+    border: 2px solid #c5b9b9;
+    text-decoration: none;
+    color: #c5b9b9;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.image-1{
+    max-width: 100px;
+}
+.image-2{
+    max-width: 250px;
+}
