@@ -18,22 +18,23 @@ p{
 }
 
 .site-init{
-    background-color: #3c42084f;
+    background-color: #d68f0a4f;
     color: #c5b9b9;
     text-align: center;
 }
 
 .menu a{
-    background-color: #09c709;
+    background-color: #3deb5a;
     margin: right 10px;
 }
 #read-more{
     border: 2px solid #c5b9b9;
+    background-color: #c5b9b9;
     text-decoration: none;
-    color: #c5b9b9;
+    color: #000000;
     font-size: 24px;
     text-transform: uppercase;
-
+    margin: right 500px;
 }
 .card-container{
     display: flex;
@@ -41,8 +42,12 @@ p{
     justify-content: space-around;
 }
 .image-1{
-    max-width: 100px;
+    max-width: 125px;
 }
 .image-2{
     max-width: 250px;
+}
+.image-3{
+    max-width: 250px;
+    max-height: 200px;
 }
