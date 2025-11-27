@@ -29,13 +29,16 @@ p{
 }
 #read-more{
     border: 2px solid #c5b9b9;
-    background-color: #c5b9b9;
+    background-color: #000000;
     text-decoration: none;
-    color: #000000;
+    color: #c5b9b9;
     font-size: 24px;
     text-transform: uppercase;
-    margin: right 500px;
 }
+#read-more:hover {
+    background-color: #c5b9b9;
+    color: #000000
+}   
 .card-container{
     display: flex;
     flex-direction: row;
@@ -50,4 +53,38 @@ p{
 .image-3{
     max-width: 250px;
     max-height: 200px;
+}
+form{
+  background-color: #000000;
+  padding: 20px;
+  width:50%;  
+  margin: 30px auto;
+}
+form h4{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+input, textarea{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+select{
+    width: 90%;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+button{
+    background-color:#c5b9b9;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

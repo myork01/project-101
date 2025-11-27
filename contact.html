@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Intel 8086 and Zilog Z80 Fan Page</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Contact</title>
+</head>
+<body>
+     <header class="site-init">
+        <h1>Welcome to the 8086 and Z80 Fan Page!</h1>
+        <nav class="menu a">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+         <div class="form-container">
+
+        <form>
+            <h4>Send new message</h4>
+            <div class="input-container">
+                <label>Name:</label>
+                <input type="text" id="user_name" placeholder="Enter your name" required>
+            </div>
+            <div class="input-container">              
+                 <label>Email:</label>
+                <input type="text"index="user_email" placeholder="Enter your email" required>
+            </div> 
+            <div class="select">
+                <label>Select Processor:</label>
+                <select type="dropdown" required>
+                    <option placeholder></option>
+                    <option value="Z80">Z80</option>
+                    <option value="8086">8086</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label>Message</label>
+                <textarea placeholder="Write your message here"></textarea>
+            </div>
+            
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    </main>
+</body>    
+</html>
